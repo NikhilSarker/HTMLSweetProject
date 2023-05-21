@@ -1,0 +1,124 @@
+/* Google Font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/* Common Start */
+html {
+  box-sizing:border-box; 
+  font-family:'Poppins', sans-serif; 
+}
+*, *::before, *::after {
+  box-sizing:inherit; 
+}
+body {
+  margin:0; 
+  
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight:700;
+}
+a{
+  text-decoration: none;
+  color:#000;
+}
+li{
+  list-style: none;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+/* Common End */
+/* Header Part Start */
+
+#header {
+  display:flex;
+  flex-flow:row wrap;
+  align-items:center;
+  gap:1.25em; /* 20px */
+}
+.content-wrapper {
+  max-width:1300px;
+  margin:0 auto; /* centers container horizontally in page */
+}
+#site-name {
+  font-size:2em; /* (32px / 16px = 2em) */
+  flex:6 0 0;
+  margin:0.843em 0em;
+  margin-left: 1.937em; 
+  font-weight: 500;
+  color: #2B0404;
+}
+#main-navigation li {
+  font-size:1.5em; /* 24px */
+  flex:6 0 0;
+  font-weight: 500;
+  color: #000;
+  display:inline-block;
+  margin-right:3.333em;
+}
+#main-navigation a:hover {
+  color:#AD00FF;
+}
+
+/* Header Part End */
+/* Main Part Start */
+
+.banner {
+  background:url("../images/macarons\ 1.png") center center no-repeat;  
+}
+ .banner-text h1 {
+  font-size:4em;
+  color:#fff;
+  text-shadow:0px 4px 4 #000; 
+  padding: 0em 4.546em;
+  padding-bottom: 0.453em;
+  padding-top: 2.375em;
+  margin:0; 
+  text-align: center;
+} 
+.banner-btn{
+  text-align: center; 
+}
+ .banner-btn a{
+  background-color:#fff;
+  border-radius:36px;
+  font-weight:500;
+  font-size:1.25em;
+  color:#AD00FF;
+  text-decoration:none; 
+  padding:1em 3.1em;  
+  margin-bottom: 9.1em;
+  border: 5px solid #AD00FF; 
+  display: inline-block;
+} 
+.banner-btn a:hover {
+  background-color:#AD00FF;
+  color:#fff;
+}
+
+/* Main Part End */
+/* Footer Part Start */
+
+#footer{
+  padding-left: 3.208em;
+  padding-top: 0.5em;
+  padding-bottom: 0.833em;
+}
+#footer-navigation li{
+  font-size:1.5em; /* 24px */
+  font-weight: 500;
+  margin-right:3.333em;
+  display: inline-block;
+}
+#footer-navigation a:hover {
+  color:#AD00FF;
+}
+.footer-text p{
+  font-size:0.875em ;
+  font-weight: 300;
+  color:#000 ;
+  padding-bottom: 0.714em;
+}
+/* Footer Part End */
